@@ -55,7 +55,6 @@
 }
 .sessao-inscrevase a {
     text-decoration: none;
-    border: 1px solid #000;
     color: var(--branco);
     background-color: var(--verde-menu);
     border-radius: 5px;

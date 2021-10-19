@@ -1,0 +1,42 @@
+
+.title-form {
+    margin-top: 10px;
+    color: var(--laranja-palestrantes);
+    text-align: center;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+form label, form input{
+    display: block;
+    width: 100%;
+    margin-top: 0.5em;
+    margin-bottom: 10px;
+}
+form label {
+    font-weight: bold;
+}
+
+form input {
+    border-radius: 3px;
+    height: 1.3em;
+    padding: 5px;
+}
+font input:focus {
+    border-radius: 1px solid var(--verde-banner);
+    box-shadow: 1px 1px var(--verde-banner);
+}
+form button  {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+    text-decoration: none;
+    color: var(--branco);
+    background-color: var(--verde-menu);
+    border-radius: 5px;
+    padding: 0.5rem 1.6rem;
+    font-size: 1.1em;
+    margin: 0 auto;
+    border-style: none;
+}
+

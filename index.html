@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/cabecalho.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/palestrantes.css">
+    <link rel="stylesheet" href="css/form.css">
 </head>
 <body>
     <header class="cabecalho">
@@ -125,8 +126,12 @@
         </section>
         <section class="contato container">
             <form action="">
+                <h2 class="title title-form">Seus dados</h2>
                 <label for="nome">Nome</label>
-                <input type="text">
+                <input type="text" name="nome" id="nome">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email">
+                <button type="submit">Realizar inscrição</button>
             </form>
         </section>
     </main>
