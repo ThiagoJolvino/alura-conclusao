@@ -1,0 +1,12 @@
+:root {
+    --verde-menu: #50A3A7;
+    --branco: #fff;
+    --verde-banner: #76FF40;
+    --laranja-palestrantes: #F17E50;
+}
+
+.container {
+    padding-right: 6%;
+    padding-left: 6%;
+}
+

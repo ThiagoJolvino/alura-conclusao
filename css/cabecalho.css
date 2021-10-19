@@ -1,0 +1,93 @@
+.cabecalho {
+    background-image: url(../img/destaque.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.navegacao-itens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navegacao-itens li {
+    display: inline-block;
+}
+
+.navegacao-itens li a {
+    color: var(--branco);
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 1em;
+    background-color: rgba(172, 171, 171, 0.2);
+    border-radius: 5px;
+    /* border: 1px solid var(--branco); */
+    box-sizing: border-box;
+    padding: .5em 1em;
+    transition: linear 200ms;
+}
+
+.navegacao-itens li a:hover {
+    background-color: var(--verde-menu);
+}
+
+.conferencia-container {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.conferencia-container h1 {
+    margin-top: 0.4em;
+    font-size: 3.6rem;
+    color: var(--branco);
+    text-shadow: 3px 2px 6px #000;
+}
+.conferencia-container h2 {
+    font-size: 2.8rem;
+    color: var(--verde-banner);
+    text-shadow: 3px 2px 6px #000;
+}
+
+.sessao-inscrevase {
+    margin-top: 1em;
+    text-align: center;
+}
+.sessao-inscrevase a {
+    text-decoration: none;
+    border: 1px solid #000;
+    color: var(--branco);
+    background-color: var(--verde-menu);
+    border-radius: 5px;
+    padding: 0.8rem 1.7rem;
+    display: inline-block;
+    font-size: 1.5em;
+}
+
+@media screen and (min-width: 768px){
+    .conferencia-container h1 {
+        font-size: 5.6rem;
+
+    }
+    .conferencia-container h2 {
+        font-size: 4rem;
+
+    }
+    .sessao-inscrevase a {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .conferencia-container h1 {
+        font-size: 6.0rem;
+
+    }
+    .conferencia-container h2 {
+        font-size: 4.5rem;
+
+    }
+    .sessao-inscrevase a {
+        font-size: 1.5em;
+    }
+}
