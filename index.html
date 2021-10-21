@@ -16,8 +16,8 @@
     <header class="cabecalho">
         <nav class="nav-container container">
             <ul class="navegacao-itens">
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Palestrantes</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#palestrantes">Palestrantes</a></li>
             </ul>
         </nav>
         <div>
@@ -26,17 +26,17 @@
                 <h2>30MaioRio</h2>
             </section>
             <section class="sessao-inscrevase">
-                <a href="#">Inscreva-se</a>
+                <a href="#inscricao">Inscreva-se</a>
             </section>
         </div>
     </header>
     <main>
-        <section class="container conteudo-painel">
+        <section class="container conteudo-painel" id="sobre">
             <h3 class="title">Muito conteúdo: do frontend ao backend</h3>
             <h4 class="subtitle">30 de maio de 2017 - na Cidade Maravilhosa</h4>
             <p>Com a AluraConf abordaremos o que há de novidade e conhecimentos essenciais a um desenvolver mobile. <br> É uma grande chance de ficar por dentro dos assuntos de Android, iOS, Web mobile, desenvolvimento híbrido, UX, além da parte backend com Rest, Microservices, e BigData. O desenvolvedor atualizado vai estar aqui </p>
         </section>
-        <section class="container palestrantes">
+        <section class="container palestrantes" id="palestrantes">
             <h3 class="title">PALESTRANTES</h2>
             <h4 class="subtitle">
                 Aprenda com palestrantes que são referências na comunidade
@@ -124,7 +124,7 @@
                 
             </ul>
         </section>
-        <section class="contato container">
+        <section class="contato container" id="inscricao">
             <form action="">
                 <h2 class="title title-form">Seus dados</h2>
                 <label for="nome">Nome</label>
@@ -137,3 +137,6 @@
     </main>
 </body>
 </html>
+
+<script src="js/jquery.js"></script>
+<script src="js/main.js"></script>

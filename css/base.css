@@ -4,7 +4,9 @@
     --verde-banner: #76FF40;
     --laranja-palestrantes: #F17E50;
 }
-
+/* html {
+    scroll-behavior: smooth;
+} */
 .container {
     padding-right: 6%;
     padding-left: 6%;
